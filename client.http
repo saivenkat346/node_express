@@ -1,0 +1,42 @@
+
+GET http://localhost:3000/product
+
+
+
+###
+
+
+GET http://localhost:3000/product/62a8a793b6067283bb1b449a
+
+###
+
+
+POST  http://localhost:3000/product//createproduct
+Content-Type: application/json
+
+
+{
+    "name":"Iphone",
+    "description" :"this is iphone just sell your kidney and buy it",
+    "stock" :3,
+    "price" :70000
+}
+
+
+###
+
+
+DELETE  http://localhost:3000/product/62a8a794b6067283bb1b449e
+
+
+
+
+###
+
+
+PATCH   http://localhost:3000/product/62a8b815a444e3b7b12161b9
+Content-Type: application/json
+
+{
+    "description":"you are lucky to have this phone"
+}
